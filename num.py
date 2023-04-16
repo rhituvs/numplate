@@ -6,7 +6,7 @@ import glob
 import pandas as pd
 import os
 
-harcascade = "model/haarcascade_russian_plate_number.xml"
+harcascade = "numplate\model\haarcascade_russian_plate_number.xml"
 
 cap = cv2.VideoCapture(0)
 
